@@ -11,9 +11,9 @@ package semana5.Ejercicio4;
 public class Main {
 
     public static void main(String[] args) {
-        Cliente cliente = new Cliente("María López", "11223344");
-        Banco banco = new Banco("Banco Nación", "30-99999999-9");
-        TarjetaDeCredito tarjeta = new TarjetaDeCredito("1234-5678-9876-5432", "12/28", banco);
+        Cliente cliente = new Cliente("Martina Scaglioni", "44004404");
+        Banco banco = new Banco("Banco Macro", "30-12312312-9");
+        TarjetaDeCredito tarjeta = new TarjetaDeCredito("1234-5678-9876-5432", "06/26", banco);
         cliente.setTarjeta(tarjeta);
         System.out.println("Cliente: " + tarjeta.getCliente().getNombre());
         System.out.println("Banco: " + tarjeta.getBanco().getNombre());

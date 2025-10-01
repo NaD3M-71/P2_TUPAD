@@ -13,9 +13,9 @@ import semana5.Ejercicio3.*;
 public class Main {
 
     public static void main(String[] args) {
-        Autor autor = new Autor("G. G. Márquez", "Colombiana");
-        Editorial editorial = new Editorial("Sudamericana", "Calle Falsa 123");
-        Libro libro = new Libro("Cien años de soledad", "978-3-16-148410-0", editorial);
+        Autor autor = new Autor("J. R. R. Tolkien", "Inglés");
+        Editorial editorial = new Editorial("Minotauro", "Av. Algo 123");
+        Libro libro = new Libro("El Señor de los Anillos: Las Dos Torres", "978-84-450-1440-0", editorial);
         libro.setAutor(autor);
 
         System.out.println("Libro: " + libro.getTitulo());
